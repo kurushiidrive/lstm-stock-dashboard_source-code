@@ -9,12 +9,12 @@ The app uses the Keras library for deep learning to extract predictions from mod
 The normaliser used on the data was Sklearn's MinMaxScaler.
 
 The full list of Python dependencies for this project's development can be found in this repository's `requirements.txt` file, but in short:
-	- keras 2.3.1
-	- dash
-	- sklearn
-	- pandas
-	- numpy
-	- tensorflow 1.14
-	- gunicorn (for deployment)
+* keras 2.3.1
+* dash
+* sklearn
+* pandas
+* numpy
+* tensorflow 1.14
+* gunicorn (for deployment)
 
 `app.py` is the only source file in this repository, whereas the rest of the files are either serialisation files (`amd_model` and such) or files required for deployment to Heroku (`Procfile`, `requirements.txt`, `.gitignore`, etc.).
