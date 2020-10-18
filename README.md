@@ -19,4 +19,4 @@ The full list of Python dependencies for this project's development can be found
 
 `app.py` is the only source file in this repository, whereas the rest of the files are either serialisation files (`amd_model` and such) or files required for deployment to Heroku (`Procfile`, `requirements.txt`, `.gitignore`, etc.).
 
-The stock data are from [Yahoo Finance](https://finance.yahoo.com].
+The stock data are from [Yahoo Finance](https://finance.yahoo.com).
