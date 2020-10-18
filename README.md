@@ -1,6 +1,6 @@
 # LSTM Stock Dashboard Source Code
 
-This repository holds the source code for my stock analysis web app hosted on [Heroku](https://kurushiid-stock-dashboard.herokuapp.com) (it can take about 30 seconds to load after accessing it, and might require a few refreshes, in order to wake the app from sleep). The app itself was written in pure Python, using the Dash framework to build a fully interactive application with few lines of Python code.
+This repository holds the source code for my stock analysis web app hosted on [Heroku](https://kurushiid-stock-dashboard.herokuapp.com) (~~it can take about 30 seconds to load after accessing it, and might require a few refreshes, in order to wake the app from sleep~~ should no longer be applicable after setting up cron job). The app itself was written in pure Python, using the Dash framework to build a fully interactive application with few lines of Python code.
 
 In the dashboard, one can view select stocks' closing prices over time alongside their LSTM-predicted trend lines so as to understand the full contextual stability of a stock, and make well-informed decisions on whether and when to invest.
 
