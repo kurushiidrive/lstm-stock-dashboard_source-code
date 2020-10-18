@@ -21,6 +21,11 @@ external_stylesheet = ['https://raw.githubusercontent.com/kurushiidrive/lstm-sto
 app = dash.Dash(external_stylesheets=external_stylesheet)
 server = app.server
 
+@server.route("/")
+def blah():
+    print('blah')
+    return 0
+
 SPLIT = 6732
 
 scaler = MinMaxScaler(feature_range=(0,1))
