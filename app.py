@@ -16,7 +16,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output, State
 
-external_stylesheet = ['https://raw.githubusercontent.com/kurushiidrive/lstm-stock-prediction-app/master/dash_stylesheet.css']
+external_stylesheet = ['https://raw.githubusercontent.com/kurushiidrive/lstm-stock-dashboard/master/dash_stylesheet.css']
 
 app = dash.Dash(external_stylesheets=external_stylesheet)
 server = app.server
@@ -35,7 +35,7 @@ my_style = {
     'font-family': 'Avenir, Helvetica, sans-serif'    
 }
 
-df = pd.read_csv('https://raw.githubusercontent.com/kurushiidrive/lstm-stock-prediction-app/master/datasets_541298_1054465_stocks_AMD.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/kurushiidrive/lstm-stock-dashboard/master/datasets_541298_1054465_stocks_AMD.csv')
 df['Date'] = pd.to_datetime(df.Date, format='%Y-%m-%d')
 df.index = df['Date']
 
